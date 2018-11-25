@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/11/2018, 15:58:18
+    Author     : luis
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    
+}
+.mainbox{
+    padding: 10px;
+    width: 320px;
+    height: 500px;
+    background: skyblue;
+    color: blue;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+.mainbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.mainbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.mainbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+}
+.mainbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+}
+header {
+  display: block;
+  margin-bottom: 1px;
+}
+nav {
+  display: block;
+  width: 20%;
+  float: left;
+}
+section{
+  display: block;
+  width: 77%;
+  float: right;
+}
+
+.saldo{
+    border: none;
+    width: 350px;
+    background-color: lightgray;
+    box-shadow: 2px 2px;
+    
+    
+}
